@@ -1,0 +1,95 @@
+.search-container{
+  background-repeat: no-repeat;
+  background-image: url(https://www.cantechletter.com/wp-content/uploads/Netflix.jpg);
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+.search-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.63);
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  position: fixed;
+  z-index: 3;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.search-input {
+  position: relative;
+  height: 30px;
+}
+
+.search-text {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  width: 400px;
+  max-width: calc(100vw - 32px);
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.search-text::placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+
+.search-submit {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-40%);
+  cursor: pointer;
+  background-color: #04aa6d;
+  height: 38px;
+  width: 14%;
+  padding: 9px;
+  color: #fff
+}
+
+.searchResults {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.searchResults-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.searchResults-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.non-results {
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.non-results h1 {
+  font-size: 25px;
+  font-weight: 600;
+}

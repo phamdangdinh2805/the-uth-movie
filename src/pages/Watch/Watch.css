@@ -1,0 +1,131 @@
+.watch-movie-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  animation: fadeIn 0.5s linear;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.watch-wrap {
+  width: 100%;
+}
+
+.watch-movie {
+  aspect-ratio: 16/9;
+  background-color: #222;
+}
+
+.simularMovie {
+  width: 100%;
+}
+
+.movie-name {
+  color: #fff;
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.movie-overview {
+  color: #fff;
+}
+
+.movie-release_date {
+  color: #fff;
+  margin: 20px 0;
+}
+
+.watch-tv-container {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin-top: 80px;
+}
+
+.watch-tv {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: #222;
+}
+
+.watch-tv-in4 {
+  width: 100%;
+}
+
+.watch-tv-other-season {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+}
+
+.watch-tv-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.watch-tv-link:last-child {
+  margin-bottom: 0px;
+}
+.watch-tv-season-img {
+  height: 100%;
+  width: 100%;
+  padding-top: 0;
+  margin-top: 0;
+  aspect-ratio: 414/599;
+}
+
+.info-esp-season {
+  width: 10%;
+  background-color: #fff;
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #000;
+  border-radius: 20px;
+}
+
+.info-esp-season p {
+  margin: 5px 0;
+}
+.esp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.esp-list {
+  background-color: #222;
+  margin-bottom: 20px;
+  width: 20%;
+  color: #fff;
+}
+
+.esp-list.active {
+  background-color: #e67e22;
+}
+
+.esp-item {
+  display: flex;
+  padding: 20px 10px;
+}
+
+.watch-tv-in4 h1 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.watch-tv-in4 p {
+  color: #fff;
+  font-size: 18px;
+  margin: 20px 0;
+  line-height: 1.6;
+}

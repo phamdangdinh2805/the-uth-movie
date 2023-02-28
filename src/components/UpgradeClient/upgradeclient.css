@@ -1,0 +1,16 @@
+.upgrade-img{
+    width: 550px;
+    border-radius: 40px;
+}
+.upgrade-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.upgrade{
+    color: #fff;
+    font-size: 25px;
+}
+.upgrade a{
+    color: #04aa6d;
+}

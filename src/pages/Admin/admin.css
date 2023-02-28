@@ -1,0 +1,46 @@
+.admin-container{
+    height: auto;
+    text-align: center;
+    margin-top: 10rem;
+    color: #fff;
+}
+.user-list-name{
+    margin-top: 20px;
+    text-align: left;
+    margin-left:80px ;
+}
+.delete-user-btn{
+  padding: 10px;
+  width: 100px;
+  background-color: rgba(230, 115, 20, 0.832);
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+a:hover{
+  background-color: none;
+}
+#user {
+    margin-top: 40px;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 40px auto;
+  }
+  
+  #user td, #user th {
+    border: 1px solid #ddd;
+    padding: 14px;
+  }
+  
+  #user tr:nth-child(even){background-color: rgb(34, 34, 34);}
+  
+  /* #user tr:hover {background-color: rgb(50, 179, 30);} */
+  
+  #user th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }

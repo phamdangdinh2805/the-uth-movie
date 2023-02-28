@@ -1,0 +1,38 @@
+.favorite {
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+
+.favorite-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.not-favorite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-favorite {
+  position: relative;
+}
+
+.image-favorite:hover .deltele-favorite {
+  display: block;
+}
+
+.deltele-favorite {
+  position: absolute;
+  left: 75%;
+  bottom: -3px;
+  font-size: 30px;
+  color: #0ad21ef4;
+  padding: 10px;
+  cursor: pointer;
+}
+.deltele-favorite:hover{
+  color:#e51010d3
+}
